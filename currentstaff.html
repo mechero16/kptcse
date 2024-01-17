@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="home.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    [class*="col-"] {
+      float: left;
+      padding: 9px;
+    }
+
+    .col-1 {
+      width: 8.33%;
+    }
+
+    .col-2 {
+      width: 16.66%;
+    }
+
+    .col-3 {
+      width: 25%;
+    }
+
+    .col-4 {
+      width: 33.33%;
+    }
+
+    .col-5 {
+      width: 41.66%;
+    }
+
+    .col-6 {
+      width: 50%;
+    }
+
+    .col-7 {
+      width: 58.33%;
+    }
+
+    .col-8 {
+      width: 66.66%;
+    }
+
+    .col-9 {
+      width: 75%;
+    }
+
+    .col-10 {
+      width: 83.33%;
+    }
+
+    .col-11 {
+      width: 91.66%;
+    }
+
+    .col-12 {
+      width: 100%;
+    }
+
+
+
+    @media only screen and (max-width: 774px) {
+      #mhead {
+        border-right: none;
+      }
+
+      #logoframe {
+        border-bottom: solid .239vw #2C544D;
+        margin: auto;
+        width: 90%;
+      }
+
+      #cseh {
+        margin: auto;
+        width: 30%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+
+
+  <div class=" container-md-12 text-center">
+    <div class="row">
+      <div class="col-md-12 tdec"> </div>
+    </div>
+
+
+    <div class=" row ">
+
+      <div class="col-md-8" id="logoframe">
+
+        <div class="col-md-2 col-sm-4 col-xs-4" style="margin: 0%;"> <img id="logo" src="dept_logo1651265540.jpg">
+        </div>
+
+        <div class="col-md">
+          <h1 id="mhead" class="text-wrap">KARNATAKA GOVERNMENT POLYTECHNIC, MANGALORE<br>Department of Collegiate and
+            Technical
+            Educations
+          </h1>
+        </div>
+
+
+      </div>
+
+
+      <div id="cseh" class="col-md-4 text-center">
+        <h2 id="subhead">Computer Science and Engineering </h2>
+      </div>
+
+
+
+    </div>
+
+    <div class="row">
+      <nav class="navbar navbar-expand-lg  col-12" style="background-color:  #669966 ;">
+        <div class="container-fluid container-md">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-underline">
+              <li class="nav-item">
+                <a class="nav-link " style="color: white;" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" style="color: white;" href="#" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Faculty
+                </a>
+                <ul class="dropdown-menu" style="background-color:  #669966">
+                  <li><a class="dropdown-item" style="color: white;" href="currentstaff.html" id="di1">Current Staff</a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" style="color: white;" href="rstaff.html" id="di2">Retired Staff</a></li>
+
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link " style="color: white;" aria-current="page" href="course.html">Syllabus</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" style="color: white;" href="#" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  News & Events
+                </a>
+                <ul class="dropdown-menu" style="background-color:  #669966">
+                  <li><a class="dropdown-item" style="color: white;" href="news.html" id="di1">News</li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" style="color: white;" href="events.html" id="di2">Events</a></li>
+
+                </ul>
+              <li class="nav-item">
+                <a class="nav-link " style="color: white;" aria-current="page" href="follow.html">Contact us</a>
+              </li>
+
+
+              </li>
+
+
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+    </div>
+
+
+    <div class="row">
+      <table class="table table-success table-striped col-md-12 col-sm-5"
+        style="margin: 0;padding: 0; font-size: 1.1vw;">
+        <tr>
+          <th>Name</th>
+          <th>Designation</th>
+          <th>About</th>
+          <th>Email</th>
+          <th>Contact</th>
+        </tr>
+
+        <tr>
+          <td>P D Talawar </td>
+          <td>Head of the Department</td>
+          <td><a href="">aboutMe</a></td>
+          <td><a href="mailto:">mailme</a></td>
+          <td><a style="text-decoration: none;" href="tel:7019684721">7019684721</a></td>
+        </tr>
+
+        <tr>
+          <td>Pradeep Kumar H M </td>
+          <td>Lecturer </td>
+          <td><a href="">aboutMe</a></td>
+          <td><a href="mailto:pradeephmkumar@gmail.com">mailme</a></td>
+          <td><a style="text-decoration: none;" href="tel:8197217970">8197217970</a></td>
+        </tr>
+
+        <tr>
+          <td>Chandralekha.V.Giraddi </td>
+          <td>Lecturer </td>
+          <td><a href="">aboutMe</a></td>
+          <td><a href="mailto:chandralekha89@gmail.com">mailme</a></td>
+          <td><a style="text-decoration: none;" href="tel:8310143336">8310143336</a></td>
+        </tr>
+
+
+      </table>
+    </div>
+
+
+    <div class="row">
+      <p class=" footer col-md-12 col-sm-12" style="font-size: 1vw;">CONTENT OWNED BY : KARNATAKA GOVERNMENT
+        POLYTECHNIC, MANGALORE, Department
+        of
+        Collegiate and
+        Technical Education
+        <br>
+        Page Designed By : Harsh Maurya
+      </p>
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

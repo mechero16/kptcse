@@ -1,0 +1,91 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#mhead{
+    padding: 1.389vw 0.694vw 1.389vw 1.389vw;
+    display: flex;
+    float: right;
+    font-size: 1.806vw;
+    border-right: solid 0.139vw #2C544D ;
+    font-family: 'Quattrocento', serif;
+}
+.tdec{
+    height: 1.111vw;
+    background: #2C544D;
+    font-size: 0.833vw;
+}
+#logo{
+    display: flex;
+    float: right;
+    height: 7.806vw;
+    width: 7.361vw;
+border-radius: 1.389vw;
+}
+#subhead{
+    padding: 2.222vw 1.389vw 1.389vw 0vw;
+    display: flex;
+    float: left;
+    font-size: 2.083vw;
+    font-family: Arial, Helvetica, sans-serif, cursive;
+    color: #2C544D;
+}
+.subhead{
+    font-size:2.472vw;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif, cursive;
+    padding: 1.508vw;
+}
+#di1:hover {background:  #7fb47f;}
+#di2:hover {background:  #7fb47f;}
+
+#imgIT{
+   border-radius: 0.833vw;
+   margin: 0vw;
+   padding: 0vw 0.139vw 0.625vw 0.139vw;
+}
+
+.footer{
+    color: white;
+    background-color:
+    #2C544D;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#kptcse{
+    font-size: 1.303vw;
+    text-align: justify;
+}
+#vision{
+    font-size: 2.083vw;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 2.778vw;
+    text-align: justify;
+}
+#csblock{
+    font-size: 1.303vw;
+    text-align: justify;
+}
+#newsh{
+    background-color: rgba(92, 184, 92, 0.3) ;
+}
+.logos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fi:hover{
+    opacity: 0.7;
+}
+.fi{
+    margin: 1vw;
+}
+#fdiv{
+    border-right:2px solid #669966;
+    background-color: rgba(92, 184, 92, 0.3);
+    background-image: url("bgimg.gif");
+}
